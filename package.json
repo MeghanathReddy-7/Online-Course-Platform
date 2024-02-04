@@ -1,0 +1,52 @@
+{
+  "name": "online-course-portal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@babel/plugin-syntax-jsx": "^7.23.3",
+    "@clerk/nextjs": "^4.29.5",
+    "@headlessui/react": "^1.7.18",
+    "@material-tailwind/react": "^2.1.8",
+    "@radix-ui/react-progress": "^1.0.3",
+    "@radix-ui/react-select": "^2.0.0",
+    "@radix-ui/react-slot": "^1.0.2",
+    "axios": "^1.6.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "graphql": "^16.8.1",
+    "graphql-request": "^6.1.0",
+    "headlessui": "^0.0.0",
+    "lucide-react": "^0.319.0",
+    "next": "14.1.0",
+    "next-themes": "^0.2.1",
+    "razorpay": "^2.9.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-hot-toast": "^2.4.1",
+    "react-icons": "^5.0.1",
+    "react-markdown": "^9.0.1",
+    "react-toastify": "^10.0.4",
+    "resend": "^3.1.0",
+    "sonner": "^1.4.0",
+    "tailwind-merge": "^2.2.1",
+    "tailwindcss-animate": "^1.0.7",
+    "util": "^0.12.5"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.23.3",
+    "@types/node": "20.11.14",
+    "@types/react": "18.2.48",
+    "@types/request": "^2.48.12",
+    "autoprefixer": "^10.0.1",
+    "babel-plugin-module-resolver": "^5.0.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "5.3.3"
+  }
+}
