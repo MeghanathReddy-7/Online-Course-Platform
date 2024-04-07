@@ -20,15 +20,15 @@ const CourseItem = ({ course }) => {
         <div className="flex flex-col gap-1 p-2">
           <h2 className="font-medium">{course.name}</h2>
           <h2 className="text-[12px] text-gray-500">{course.author}</h2>
-          {course?.chapter?.length == 0 ? (
-            <div className="flex gap-2">
-              <Image src="/youtube.png" alt="youtube" width={20} height={20} />
-              <h2 className="text-[14px] text-gray-500">Watch on youtube</h2>
-            </div>
-          ) : (
+          {!course?.free ? (
             <div className="flex gap-2">
               <Image src="/chapter.png" alt="chapter" width={20} height={20} />
               <h2 className="text-[14px] text-gray-500">Chapters</h2>
+            </div>
+          ) : (
+            <div className="flex gap-2">
+              <Image src="/youtube.png" alt="youtube" width={20} height={20} />
+              <h2 className="text-[14px] text-gray-500">Watch on youtube</h2>
             </div>
           )}
           <h2>{course?.free ? "Free" : "paid"}</h2>
